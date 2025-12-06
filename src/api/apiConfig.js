@@ -4,7 +4,7 @@
 // Why? So we can change it in ONE place instead of searching the whole project.
 
 // Local backend URL during development
-const BASE_URL = "http://localhost:5000/api";
+const BASE_URL = "https://university-room-booking-backend.onrender.com";
 
 // Export it so we can import it anywhere in the frontend.
 export default BASE_URL;
