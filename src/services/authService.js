@@ -10,7 +10,7 @@ const authService = {
     console.log("📧 Email:", credentials.email);
     
     try {
-      const response = await apiClient.post("/users/login", credentials);
+      const response = await apiClient.post("/api/users/login", credentials);
       console.log("✅ AuthService: Login response received", response.data);
 
       const { token, user } = response.data;
