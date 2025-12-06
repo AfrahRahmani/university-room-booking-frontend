@@ -2,7 +2,7 @@
 
 // 🧩 This file stores our API base URL.
 // Why? So we can change it in ONE place instead of searching the whole project.
-
+// Production API URL
 // Local backend URL during development
 const BASE_URL = import.meta.env.VITE_API_URL || 
 "http://localhost:5000";
