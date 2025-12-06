@@ -1,0 +1,15 @@
+/* Global background for all application pages */
+body {
+  margin: 0;
+  padding: 0;
+  background: url("https://media.istockphoto.com/id/1350230548/photo/inside-the-library-with-no-people.jpg?s=612x612&w=0&k=20&c=REFdrjHqkPhZM6Q661cIJ01Ml4NXu9isuJlZODylc_s=")
+    no-repeat center center fixed;
+  background-size: cover;
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+
+/* Ensure React root stays transparent so background shows */
+#root,
+.App {
+  background: transparent !important;
+}

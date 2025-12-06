@@ -1,0 +1,56 @@
+/* ===== Background Wrapper ===== */
+.room-page-wrapper {
+  min-height: 90vh;
+  background: url("https://images.pexels.com/photos/256431/pexels-photo-256431.jpeg")
+    no-repeat center center fixed;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* ===== Booking Box ===== */
+.room-box {
+  width: 450px;
+  padding: 30px;
+  background: rgba(255, 255, 255, 0.75);
+  backdrop-filter: blur(8px);
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 0 4px 14px rgba(0,0,0,0.25);
+}
+
+.room-box h2 {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.booking-form {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  margin-top: 15px;
+}
+
+.booking-form select,
+.booking-form input {
+  padding: 12px;
+  border-radius: 10px;
+  border: 1px solid rgb(200, 200, 200);
+  font-size: 15px;
+}
+
+.booking-form button {
+  padding: 12px;
+  border-radius: 8px;
+  background: #4b9ec0;
+  color: white;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+}
+
+.booking-form button:hover {
+  background: #003680;
+}

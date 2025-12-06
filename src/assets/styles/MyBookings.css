@@ -1,0 +1,44 @@
+/* ====== My Bookings Container ====== */
+.bookings-container {
+  max-width: 900px;
+  margin: 50px auto;
+  background: rgba(255, 255, 255, 0.75);
+  backdrop-filter: blur(6px);
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.12);
+  text-align: center;
+}
+
+/* ====== Bookings Table ====== */
+.bookings-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.bookings-table th {
+  background: rgba(224, 242, 254, 0.868);
+  padding: 12px;
+  border: 1px solid #E2E8F0;
+  font-weight: bold;
+}
+
+.bookings-table td {
+  padding: 12px;
+  border: 1px solid #E2E8F0;
+}
+
+/* ====== Cancel Button ====== */
+.cancel-btn {
+  background-color: #EF4444;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.cancel-btn:hover {
+  background-color: #B91C1C;
+}

@@ -1,0 +1,80 @@
+/* ===== Login Page Background ===== */
+.login-page-bg {
+  min-height: 100vh;
+  background: url("https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&w=1350&q=80")
+    no-repeat center center fixed;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* ===== Login Container ===== */
+.login-container {
+  width: 380px;
+  margin: 120px auto;
+  background: rgba(223, 237, 244, 0.906);
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+  text-align: center;
+}
+
+/* ===== Title ===== */
+.login-container h2 {
+  margin-bottom: 15px;
+  font-size: 22px;
+  color: #010000;
+  font-weight: 700;
+}
+
+/* ===== Notes & Hint Text ===== */
+.hint,
+.note,
+small {
+  font-size: 14px;
+  color: #111 !important;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+/* ===== Form ===== */
+.login-container form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+/* ===== Input ===== */
+.login-container input {
+  width: 100%;
+  padding: 12px;
+  border-radius: 6px;
+  border: 1px solid #bbb;
+  font-size: 15px;
+  background: rgba(255, 255, 255, 0.9);
+}
+
+/* Placeholder */
+.login-container input::placeholder {
+  color: #333 !important;
+  font-weight: 500;
+}
+
+/* ===== Button ===== */
+.login-container button {
+  width: 100%;
+  padding: 12px;
+  background: #4b9ec0;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  transition: 0.2s ease-in-out;
+}
+
+.login-container button:hover {
+  background: #003680;
+}

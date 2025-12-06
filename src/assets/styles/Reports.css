@@ -1,0 +1,27 @@
+.reports-container {
+  max-width: 900px;
+  margin: 50px auto;
+  background: rgba(255, 255, 255, 0.75);
+  backdrop-filter: blur(6px);
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.12);
+  text-align: center;
+}
+
+.reports-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.reports-table th {
+  background: rgba(224, 242, 254, 0.7);
+  padding: 12px;
+  border: 1px solid #E2E8F0;
+  font-weight: bold;
+}
+
+.reports-table td {
+  padding: 12px;
+  border: 1px solid #E2E8F0;
+}
