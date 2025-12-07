@@ -5,7 +5,7 @@
 import axios from "axios";
 import BASE_URL from "../api/apiConfig";
 
-console.log("🔧 API Client Base URL:", BASE_URL);
+console.log("NEW BUILD LOADED 🔧 API Client Base URL:", BASE_URL);
 
 // 🔧 Creating the Axios instance with default settings
 const apiClient = axios.create({
