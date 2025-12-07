@@ -7,7 +7,7 @@ import apiClient from "./apiClient";
 const roomService = {
   // 📌 Fetch all available rooms from the backend
   getRooms: async () => {
-    const response = await apiClient.get("/rooms");
+    const response = await apiClient.get("/api/rooms");
     return response.data; // return clean data
   },
 
