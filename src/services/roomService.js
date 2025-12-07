@@ -7,13 +7,13 @@ import apiClient from "./apiClient";
 const roomService = {
   // 📌 Fetch all available rooms from the backend
   getRooms: async () => {
-    const response = await apiClient.get("/api/rooms");
+    const response = await apiClient.get("/rooms");
     return response.data; // return clean data
   },
 
   // ➕ Create a new room (admin only)
   createRoom: async (roomData) => {
-    const response = await apiClient.post("/api/rooms/add", roomData);
+    const response = await apiClient.post("/rooms/add", roomData);
     return response.data;
   },
 };

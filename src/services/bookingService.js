@@ -19,13 +19,13 @@ const bookingService = {
 
   // Cancel booking
   cancelBooking: async (id) => {
-    const response = await apiClient.delete(`/api/bookings/cancel/${id}`);
+    const response = await apiClient.delete(`/bookings/cancel/${id}`);
     return response.data;
   },
 
   // Admin: get ALL bookings
   getAllBookings: async () => {
-    const response = await apiClient.get("/api/bookings");
+    const response = await apiClient.get("/bookings");
     return response.data;
   }
 };
