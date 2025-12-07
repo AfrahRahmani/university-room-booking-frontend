@@ -7,13 +7,13 @@ import apiClient from "./apiClient";
 const bookingService = {
   // Create booking
   createBooking: async (bookingData) => {
-    const response = await apiClient.post("/api/bookings", bookingData);
+    const response = await apiClient.post("/bookings", bookingData);
     return response.data;
   },
 
   // User bookings
   getUserBookings: async (userId) => {
-    const response = await apiClient.get(`/api/bookings/${userId}`);
+    const response = await apiClient.get(`/bookings/${userId}`);
     return response.data;
   },
 
