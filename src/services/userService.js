@@ -8,7 +8,7 @@ import BASE_URL from "../api/apiConfig";
 // 👉 Register a new user
 export async function registerUser(formData) {
   try {
-    const response = await axios.post(`${BASE_URL}/users/register`, formData);
+    const response = await axios.post(`${BASE_URL}/api/users/register`, formData);
     return response.data; // return useful backend data
   } catch (error) {
     console.error("❌ Registration failed:", error);
@@ -19,7 +19,7 @@ export async function registerUser(formData) {
 // 👉 Login user
 export async function loginUser(credentials) {
   try {
-    const response = await axios.post(`${BASE_URL}/users/login`, credentials);
+    const response = await axios.post(`${BASE_URL}/api/users/login`, credentials);
 
     // Save token for authenticated requests
     if (response.data.token) {

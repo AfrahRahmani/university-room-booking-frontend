@@ -13,7 +13,7 @@ const roomService = {
 
   // ➕ Create a new room (admin only)
   createRoom: async (roomData) => {
-    const response = await apiClient.post("/rooms/add", roomData);
+    const response = await apiClient.post("/api/rooms/add", roomData);
     return response.data;
   },
 };
